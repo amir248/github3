@@ -1,0 +1,44 @@
+*{
+  margin:0;
+}
+body{
+  background: linear-gradient(rgba(255,250,0,0.3),rgba(0,0,255,0.3));
+  min-height: 100vh;
+}
+main{
+  display:flex;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 100%;
+}
+article{
+  display:flex;
+  max-width: 100%;
+  width:900px;
+  background: rgba(33,33,33,0.3);
+  flex-direction: column; /* раставляет элементы с верху в низ */
+}
+footer{
+  display:flex;
+  justify-content: space-around; /* распределяет блоки во всей ширине */
+  align-items: center; /* выравнивает по центру */
+  max-width: 100%;
+  width:900px;
+  min-height: 70px;
+  background: rgba(0,0,0,0.3);
+}
+aside{
+  position:sticky; /* Прилипляет блок */
+  top:0; /* значение куда блок прилипнет */
+  width:200px;
+  height:300px;
+  background:green;
+}
+article p{
+  margin:3%;
+}
+@media(max-width:1100px){
+  aside{
+    display:none;
+  }
+}
