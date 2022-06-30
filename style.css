@@ -27,6 +27,14 @@ footer{
   min-height: 70px;
   background: rgba(0,0,0,0.3);
 }
+ /* .box - чтобы на не ставить футер в аркикл т.к. это разные элементы тегов html5 и могут нарушить смысловую нагрузку всего сайта */
+.box{
+  display:flex;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 100%;
+  flex-direction: column;
+}
 aside{
   position:sticky; /* Прилипляет блок */
   top:0; /* значение куда блок прилипнет */
@@ -41,4 +49,10 @@ article p{
   aside{
     display:none;
   }
+}
+article h1{
+  text-align: center;
+}
+strong a{
+  margin:3%;
 }
