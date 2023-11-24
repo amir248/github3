@@ -4,17 +4,18 @@
 body{
   background: linear-gradient(rgba(255,250,0,0.3),rgba(0,0,255,0.3));
   min-height: 100vh;
+  font-size: 20px;
 }
 main{
   display:flex;
   justify-content: center;
   align-items: flex-start;
-  max-width: 100%;
+  width: 100%;
 }
 article{
   display:flex;
-  max-width: 100%;
-  width:900px;
+  width: 100%;
+  max-width:900px;
   background: rgba(33,33,33,0.3);
   flex-direction: column; /* раставляет элементы с верху в низ */
 }
@@ -22,8 +23,8 @@ footer{
   display:flex;
   justify-content: space-around; /* распределяет блоки во всей ширине */
   align-items: center; /* выравнивает по центру */
-  max-width: 100%;
-  width:900px;
+  width: 100%;
+  max-width:900px;
   min-height: 70px;
   background: rgba(0,0,0,0.3);
 }
@@ -32,7 +33,7 @@ footer{
   display:flex;
   justify-content: center;
   align-items: flex-start;
-  max-width: 100%;
+  width: 100%;
   flex-direction: column;
 }
 aside{
