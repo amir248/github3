@@ -55,6 +55,9 @@ article p{
   aside{
     display:none;
   }
+  body{
+    max-width:900px;
+  }
 }
 article h1{
   text-align: center;
